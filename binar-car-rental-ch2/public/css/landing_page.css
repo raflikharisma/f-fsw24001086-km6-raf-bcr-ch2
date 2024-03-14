@@ -1,0 +1,297 @@
+* {
+  font-family: "Helvetica";
+}
+
+body {
+  margin: 0 !important;
+  padding: 0 !important;
+  background-color: #f1f3ff !important;
+}
+
+footer li p {
+  font-size: 14px;
+}
+
+.navbar {
+  height: 36px;
+  margin-top: 24px;
+  background-color: #f1f3ff;
+}
+
+.offcanvas li {
+  padding-right: 32px;
+}
+
+.navbar-toggler-icon {
+  color: black;
+}
+
+.desc-sewa {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.hero button {
+  background-color: #5cb85f;
+}
+
+.list {
+  margin-left: 16px;
+}
+
+.feature {
+  border: 1px solid black !important;
+  border-radius: 8px;
+}
+
+.carousel-card {
+  max-width: 100%;
+  height: 270px;
+  background-color: #f1f3ff !important;
+  padding-right: 126px;
+}
+
+.carousel-row {
+  padding-left: 60px;
+}
+
+.testi-paragraph {
+  max-width: 400p;
+  font-size: 14px;
+}
+
+.testi-author {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.cta-banner {
+  max-width: 1168px;
+  padding-bottom: 64px;
+  border-radius: 13px;
+  background-color: #0d28a6;
+}
+
+.cta-banner h1 {
+  padding-top: 64px;
+  font-size: 36px;
+}
+
+.cta-banner p {
+  max-width: 468px;
+  font-weight: 300px;
+  font-size: 14px;
+}
+
+.cta-banner button {
+  margin-top: 52px;
+  padding: 8px, 12px, 8px, 12px;
+  background-color: #5cb85f;
+}
+
+.faq.row {
+  padding-top: 100px;
+}
+
+.accordion-item {
+  width: 668px;
+  max-height: 56px;
+  border: 1px solid #ccc; /* You can adjust the color and thickness of the border */
+  border-radius: 5px;
+  margin-bottom: 16px;
+}
+
+.faq-header h1 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+
+.faq-header h3 {
+  font-size: 14px;
+}
+
+.copyright,
+.socmed-icon {
+  font-size: 14px;
+}
+
+#jumbotron {
+  background-color: #f1f3ff;
+}
+
+#register {
+  width: 81px;
+  height: 36px;
+  font-size: 14px;
+  background-color: #5cb85f;
+}
+
+#header {
+  max-width: 568px;
+  font-size: 36px;
+  line-height: 54px;
+  margin-bottom: 16px;
+}
+
+#hero-description {
+  max-width: 468px;
+  font-size: 14px;
+}
+
+#mulai-sewa-btn a{
+  text-decoration: none;
+}
+
+#second {
+  height: 100%;
+  width: 100%;
+}
+
+#best-car {
+  font-size: 24px;
+  line-height: 36px;
+  margin-bottom: 24px;
+}
+
+#right-col-second {
+  padding-left: 100px;
+}
+
+#h3 {
+  font-size: 14px;
+}
+
+#why-us {
+  font-size: 24px;
+}
+
+#title-featured {
+  font-size: 16px;
+}
+
+#paragraph-why-us {
+  font-size: 14px;
+}
+
+#fifth {
+  padding-top: 156px;
+}
+
+@media only screen and (max-width: 600px) {
+  .img-second-sec {
+    margin-left: 20px;
+  }
+
+  .feature-icon {
+    padding-top: 24px;
+  }
+
+  .carousel-card {
+    width: 328px;
+    height: 392px;
+  }
+
+  .feature.col.me-3 {
+    margin-left: 4px;
+    width: 100%;
+  }
+
+  .testi-paragraph {
+    height: 148px;
+    width: 264px;
+    margin-left: 90px;
+    padding-right: 20px;
+    text-align: justify;
+  }
+
+  .testi-author {
+    margin-top: 15px;
+    margin-right: 40px;
+  }
+
+  .rate-testi {
+    margin-left: 70px;
+    margin-bottom: 20px;
+  }
+
+  .img-testi {
+    margin-bottom: 20px;
+    margin-top: 30px;
+    margin-left: 70px;
+  }
+
+  .carousel-control-prev {
+    margin-bottom: 200px;
+  }
+
+  .carousel-control-next {
+    margin-bottom: 200px;
+  }
+
+  .accordion-item {
+    margin-left: 2px;
+    max-width: 350px;
+  }
+
+  #right-col-second {
+    padding-left: 30px;
+  }
+
+  #why-us {
+    font-size: 24px;
+    text-align: center;
+  }
+
+  #mengapa-harus {
+    font-size: 14px;
+    text-align: center;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .navbar {
+    margin-left: 136px;
+    margin-right: 136px;
+  }
+
+  .hero {
+    padding-left: 136px;
+    width: 100%;
+  }
+
+  .feature.col.me-3 {
+    overflow: hidden;
+    max-width: 268px;
+    max-height: 196px;
+    margin-top: 40px;
+    padding: 24px;
+  }
+
+  .cta-banner {
+    margin-left: 136px;
+    margin-right: 136px;
+  }
+
+  .faq-header {
+    margin-left: 220px;
+  }
+
+  .accordion-header button {
+    font-size: 14px;
+  }
+
+  .accordion-item {
+    margin-right: 210px;
+  }
+
+  #paragraph-why-us {
+    width: 220px;
+    height: 60px;
+  }
+  #whyus-title-wrapper {
+    padding-left: 10px;
+    margin-left: 250px;
+    margin-right: 250px;
+  }
+}
